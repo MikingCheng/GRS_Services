@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace WWGRS.Services.Catalog.API.Extensions
 {
-    public class WebHostExtensions
+    public static class WebHostExtensions
     {
         public static bool IsInKubernetes(this IWebHost host)
         {

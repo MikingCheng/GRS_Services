@@ -40,5 +40,9 @@
     <ProjectReference Include="..\..\..\BuildBlocks\EventBus\IntegrationEventLogEF\IntegrationEventLogEF.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EventHandling\" />
+  </ItemGroup>
+
 
 </Project>
