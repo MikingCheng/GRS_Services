@@ -28,7 +28,7 @@ namespace WWGRS.BuildingBlocks.EventBuses.Events
         }
 
         [JsonProperty]
-        public DateTime CreateDate { set; private get; }
+        public DateTime CreateDate { get; private set; }
 
 
     }

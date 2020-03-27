@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WWGRS.Servcies.Catalog.API.Infrastructure.Exceptions;
+using WWGRS.Services.Catalog.API.Infrastructure.Exceptions;
 
 namespace WWGRS.Services.Catalog.API.Model
 {
