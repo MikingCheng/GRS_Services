@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using WWGRS.Service.Ordering.Domain.Events;
 using WWGRS.Service.Ordering.Domain.SeedWork;
 
 namespace WWGRS.Service.Ordering.Domain.AggregatesModel.BuyerAggregate

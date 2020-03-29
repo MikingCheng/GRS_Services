@@ -6,7 +6,7 @@ using WWGRS.Service.Ordering.Domain.AggregatesModel.BuyerAggregate;
 
 namespace WWGRS.Service.Ordering.Domain.Events
 {
-    public class BuyerPaymentMethodVerifiedDomainEvent : INotification
+    public class BuyerAndPaymentMethodVerifiedDomainEvent : INotification
     {
         public Buyer Buyer { get; private set; }
         public PaymentMethod Payment { get; private set; }

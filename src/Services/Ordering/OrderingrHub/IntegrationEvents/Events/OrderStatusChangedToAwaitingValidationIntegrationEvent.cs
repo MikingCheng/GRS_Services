@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using WWGRS.BuildingBlocks.EventBuses.Events;
+
+namespace WWGRS.Services.OrderingrHub.IntegrationEvents.Events
+{
+    public class OrderStatusChangedToAwaitingValidationIntegrationEvent : IntegrationEvent
+    {
+        public int OrderId { get; }
+        public string OrderStatus { get; }
+        public string BuyerName { get; }
+
+        public OrderStatusChangedToAwaitingValidationIntegrationEvent(int orderId, string orderStatus, string buyerName)
+        {
+            OrderId = orderId;
+            OrderStatus = orderStatus;
+            BuyerName = buyerName;
+        }
+
+    }
+}
