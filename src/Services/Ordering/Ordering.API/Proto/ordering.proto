@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "WWGRS.Service.Ordering.API.GrpcOrdering";
+option csharp_namespace = "Ordering.API.Proto";
 
 package OrderingApi;
 
@@ -36,3 +36,4 @@ message OrderItemDTO {
     int32 units = 5;
     string pictureUrl = 6;
 }
+

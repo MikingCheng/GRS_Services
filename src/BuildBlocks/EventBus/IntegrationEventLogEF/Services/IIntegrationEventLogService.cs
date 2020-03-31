@@ -10,7 +10,7 @@ namespace WWGRS.BuildingBlocks.IntegrationEventLogEF.Services
 {
     public interface IIntegrationEventLogService
     {
-        Task<IEnumerable<IntegrationEventLogEntry>> RetrieveEventLOgPendingToPublishAsync(Guid transactionId);
+        Task<IEnumerable<IntegrationEventLogEntry>> RetrieveEventLogsPendingToPublishAsync(Guid transactionId);
         Task SaveEventAsync(IntegrationEvent @event, IDbContextTransaction transaction);
         Task MarkEventAsPublishedAsync(Guid eventId);
         Task MarkEventAsFailedAsync(Guid eventId);

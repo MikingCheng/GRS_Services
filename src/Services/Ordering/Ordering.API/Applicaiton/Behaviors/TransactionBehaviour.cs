@@ -1,14 +1,15 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using Serilog.Context;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using WWGRS.BuildingBlocks.EventBuses.Extensions;
+using WWGRS.Service.Ordering.API.Applicaiton.IntegrationEvents;
 using WWGRS.Service.Ordering.Infrastructure;
 
-namespace Ordering.API.Applicaiton.Behaviors
+namespace WWGRS.Service.Ordering.API.Applicaiton.Behaviors
 {
     public class TransactionBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Ordering.API
+namespace Webhooks
 {
     public class WeatherForecast
     {

@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using WWGRS.Service.Ordering.API.Applicaiton.IntegrationEvents;
+using WWGRS.Service.Ordering.API.Applicaiton.IntegrationEvents.Events;
 using WWGRS.Service.Ordering.API.Infrastructure.Services;
 using WWGRS.Service.Ordering.Domain.AggregatesModel.OrderAggregate;
 using WWGRS.Service.Ordering.Infrastructure.Idempotency;

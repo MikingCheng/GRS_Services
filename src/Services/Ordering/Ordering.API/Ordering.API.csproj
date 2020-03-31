@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,20 +7,9 @@
     <DockerfileContext>..\..\..\..</DockerfileContext>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Remove="Proto\ordering.proto" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Proto\ordering.proto" GrpcServices="Server">
-      <Generator>MSBuild:Compile</Generator>
-    </Content>
-  </ItemGroup>
-
-
     <ItemGroup>
-        <Protobuf Include="Proto\catalog.proto"  Generator="MSBuild:Compile" />
-        <Content Include="@(Protobuf)" />
+        <Protobuf Include="Proto\ordering.proto" GrpcServices="Server" Generator="MSBuild:Compile" />
+        <Content Include="Proto\ordering.proto" />
         <None Remove="@(Protobuf)" />
     </ItemGroup>
 

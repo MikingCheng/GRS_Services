@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using WWGRS.BuildingBlocks.EventBuses.Abstractions;
 using WWGRS.Service.Ordering.API.Applicaiton.Commands;
 using WWGRS.Service.Ordering.API.Applicaiton.IntegrationEvents.Events;
+using WWGRS.BuildingBlocks.EventBuses.Extensions;
 
 namespace WWGRS.Service.Ordering.API.Applicaiton.IntegrationEvents.EventHandling
 {

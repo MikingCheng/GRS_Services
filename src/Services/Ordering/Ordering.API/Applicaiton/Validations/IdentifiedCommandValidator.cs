@@ -1,9 +1,6 @@
 ﻿using FluentValidation;
 using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using WWGRS.Service.Ordering.API.Applicaiton.Commands;
 
 namespace WWGRS.Service.Ordering.API.Applicaiton.Validations
 {

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WWGRS.BuildingBlocks.EventBuses.Events;
 
 namespace Ordering.API.Applicaiton.IntegrationEvents.Events
 {

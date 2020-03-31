@@ -1,20 +1,17 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.DependencyInjection;
-using Serilog;
-using WWGRS.BuildingBlocks.IntegrationEventLogEF;
-using WWGRS.Services.Catalog.API.Infrastructure;
-using WWGRS.Services.Catalog.API.Extensions;
 using Microsoft.Extensions.Options;
+using Serilog;
+using System;
+using System.IO;
+using System.Net;
+using WWGRS.BuildingBlocks.IntegrationEventLogEF;
+using WWGRS.Services.Catalog.API.Extensions;
+using WWGRS.Services.Catalog.API.Infrastructure;
 
 namespace WWGRS.Services.Catalog.API
 {

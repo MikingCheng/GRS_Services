@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using WWGRS.BuildingBlocks.EventBuses.Extensions;
 using WWGRS.Service.Ordering.Domain.Exceptions;
 
 namespace WWGRS.Service.Ordering.API.Applicaiton.Behaviors

@@ -31,7 +31,7 @@ namespace WWGRS.BuildingBlocks.IntegrationEventLogEF.Services
                 .ToList();
         }
 
-        public async Task<IEnumerable<IntegrationEventLogEntry>> RetrieveEventLOgPendingToPublishAsync(Guid transactionId)
+        public async Task<IEnumerable<IntegrationEventLogEntry>> RetrieveEventLogsPendingToPublishAsync(Guid transactionId)
         {
             var tid = transactionId.ToString();
 
